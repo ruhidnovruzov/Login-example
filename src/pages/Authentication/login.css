@@ -1,0 +1,27 @@
+input:focus+label,
+.filled {
+  top: 0;
+  font-size: 13px;
+  color: white;
+  background-color: #7c96ff;
+  padding: 2px 5px;
+  border-radius: 12px;
+  font-weight: 400;
+}
+
+input:focus {
+  box-shadow: 1px 2px 2px 0px rgba(255, 255, 255, 0.4);
+  border: 1px solid #7c96ff;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 13px;
+  color: #aaa;
+  pointer-events: none;
+  transition: 0.2s ease;
+  font-weight: bold;
+}
